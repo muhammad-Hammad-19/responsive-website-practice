@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.heading h1{
+    font-size: 4rem;
+}
+.heading h4{
+    font-size: 2rem;
+}
+.logo{
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    gap: 4rem;
+    margin-right: 3rem;
+}
+.ri-search-line{
+    padding-right: 4rem;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+}
+.menu a{
+    font-size: 20px;
+    color: unset;
+    text-decoration-line: unset;
+}
+.heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+.box-1 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem; 
+  
+}
+.box-1{
+    height: 350px;
+    background-color: white;
+    width: 25%;
+    background-size: contain;
+}
+.box-1 :hover{
+    transform: scale(1.2);
+}
+.main-contant{
+    margin-top: 1rem;
+    display: flex;
+    gap:6rem;
+    padding-right: 1rem;
+    padding-left: 10px;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    height:calc(100% - 80px) ;
+
+}
+.box-2 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+}
+.box-2{
+    border-radius: 8px;
+    width: 25%;
+    height: 350px;
+    background-color:white;
+}
+.box-2 :hover{
+    transform: scale(1.2);
+}
+.box-3 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+}
+.box-3{
+     width: 25%;
+    height: 350px;
+    background-color: white;
+}
+.box-3 :hover{
+    transform: scale(1.2);
+}
+.box-4 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+}
+.box-4 :hover{
+    transform: scale(1.2);
+}
+.box-4{
+     width: 25%;
+    height: 350px;
+    background-color: white;
+}
+.box-5 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+}
+.box-5 :hover{
+    transform: scale(1.2);
+}
+.box-5{
+    width: 25%;
+    height: 350px;
+    background-color: white;
+}
+.box-6 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-6 :hover{
+    transform: scale(1.2);
+}
+.box-6{
+     width: 25%;
+    height: 350px;
+    background-color: white; 
+}
+.box-7 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 200px;
+}
+.box-7 :hover{
+    transform: scale(1.2);
+}
+.box-7{
+     width: 25%;
+    height: 350px;
+    background-color:white;
+}
+.box-8 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-8 :hover{
+    transform: scale(1.2);
+}
+.box-8{
+    width: 25%;
+   height: 350px;
+   background-color:white;
+}
+.box-9 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-9 :hover{
+    transform: scale(1.2);
+}
+.box-9{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+}
+.box-10 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-10{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+}
+.box-10 :hover{
+    transform: scale(1.2);
+}
+.box-11 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-11 :hover{
+    transform: scale(1.2);
+}
+.box-11{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+   
+}
+.box-12 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-12 :hover{
+    transform: scale(1.2);
+}
+.box-12{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+}
+.box-13 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-13 :hover{
+    transform: scale(1.2);
+}
+.box-13{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+}
+.box-14 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-14 :hover{
+    transform: scale(1.2);
+}
+.box-14{
+    width: 25%;
+   height: 350px;
+   background-color:white;
+}
+.box-15 img{
+    margin-top: 1.6rem;
+    padding-left: 1rem;
+    width: 220px;
+}
+.box-15 :hover{
+    transform: scale(1.2);
+}
+.box-15{
+    width: 25%;
+   height: 350px;
+   background-color: white;
+}
+.footer{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.footer h6{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.ri-menu-line{
+    display: none;
+}
+@media (max-width:600px) {
+    .navbar a{
+        display: none;
+    }
+    .navbar i{
+        display: none;
+    }
+    .navbar .ri-menu-line {
+        display: unset;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .navbar{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .heading h1{
+        display: inline-block;
+        text-align: center;
+        font-size: x-large;
+    }
+    .heading h4{
+        text-align: center;
+        font-size: medium;
+    }
+    .main-contant{
+        height: calc(100% - 80px);
+        flex-direction: column;
+        position: relative;
+        margin-left: 15%; 
+    }
+    .main-contant .box-1 {
+        position: relative;
+    }
+    .main-contant img{
+        position: absolute;
+        height: 180px;
+    }
+    .footer h6{
+        text-align: center;
+        font-size: x-large;
+    }
+    .footer{
+        width: 100%;
+    }
+}
